@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset_YUI3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- js -->
+    <script src="js/stopwatch.js" defer></script>
+  </head>
+  <body>
+    <aside class="stopWatch" style="padding: 20px">
+      <div class="Sample__title">ストップウォッチ</div>
+
+      <div class="display Sample__title" style="padding: 20px">0</div>
+      <!-- background-color: black;color:#fff; -->
+      <div class="button-wrapper">
+        <button class="js-start Button" type="button" style="font-size: 16px">
+          スタート
+        </button>
+        <button class="js-stop Button" type="button" style="font-size: 16px">
+          ストップ
+        </button>
+      </div>
+      <div class="js-log"></div>
+    </aside>
+
+    <style>
+      .stopWatch {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      .button-wrapper {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+      .message {
+        font-size: 16px;
+      }
+      @media screen and (max-width: 768px) {
+        .button-wrapper {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </body>
+</html>

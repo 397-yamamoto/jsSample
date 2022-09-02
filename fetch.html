@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fetch</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset_YUI3.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- js -->
+    <script src="js/fetch.js" defer></script>
+  </head>
+  <body>
+    <h1 class="Sample__title">fetch</h1>
+    <div class="Fetch">
+      <div class="nameBlock">
+        <label for="name"><span class="name">name :</span><span class="input-wrapper"><input type="text" class="js-name" id="name"/></span></label>
+        <button class="js-entry Button" type="button" style="font-size: 16px">名前を登録</button>
+      </div>
+      <dic class="Fetch__inner"></dic>
+
+    </div>
+
+<style>
+  .Fetch__inner{
+    font-size: 16px;
+  }
+  .Fetch{
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .input-wrapper{
+    width: 50%;
+  }
+  .name{
+    font-size: 16px;
+    width: 20%;
+  }
+  input{
+    display: block;
+    width: 100%;
+    border-radius: 0.25em;
+    border: 1px solid #dcdcdc;
+    background-color: transparent;
+    line-height: 1em;
+    height: 3em;
+    padding: 0 .5em;
+  }
+  .nameBlock{
+    display: flex;
+    justify-content: center;
+  }
+
+</style>
+  </body>
+</html>
