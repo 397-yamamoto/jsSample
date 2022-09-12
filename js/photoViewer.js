@@ -101,7 +101,7 @@
   const images = [
     "https://397-yamamoto.github.io/jsSample/img/01.jpg",
     "https://397-yamamoto.github.io/jsSample/img/02.jpg",
-    "https://397-yamamoto.github.io/jsSample/img/03.jpgg",
+    "https://397-yamamoto.github.io/jsSample/img/03.jpg",
     "https://397-yamamoto.github.io/jsSample/img/04.jpg",
   ];
 
