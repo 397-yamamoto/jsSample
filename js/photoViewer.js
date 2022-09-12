@@ -99,10 +99,10 @@
   } //クラス終わり
 
   const images = [
-    "http://127.0.0.1:5500/img/01.jpg",
-    "http://127.0.0.1:5500/img/02.jpg",
-    "http://127.0.0.1:5500/img/03.jpg",
-    "http://127.0.0.1:5500/img/04.jpg",
+    "https://397-yamamoto.github.io/jsSample/img/01.jpg",
+    "https://397-yamamoto.github.io/jsSample/img/02.jpg",
+    "https://397-yamamoto.github.io/jsSample/img/03.jpgg",
+    "https://397-yamamoto.github.io/jsSample/img/04.jpg",
   ];
 
   new PhotoViewer(
